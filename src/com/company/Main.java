@@ -12,5 +12,11 @@ public class Main {
         int num2 = scanner.nextInt();
         int num3 = num + num2 ;
         System.out.println("Num3 = " + num3);
+        if ( num3 < 10) {
+            System.out.println("Da");}
+            else {
+                System.out.println("Net");
+            }
+        }
     }
-}
+

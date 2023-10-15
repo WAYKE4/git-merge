@@ -1,5 +1,6 @@
 package com.company;
 
+
 import java.util.Scanner;
 
 public class Main {
@@ -10,5 +11,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int num2 = scanner.nextInt();
         int num3 = num + num2 ;
+        System.out.println("Num3 = " + num3);
     }
 }
